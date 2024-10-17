@@ -1,5 +1,5 @@
 const mysql = require('mysql2/promise');
-const bcrypt = require('bcrypt'); // Import bcrypt
+const bcrypt = require('bcryptjs'); // Import bcrypt
 
 const dbConfig = {
     host: 'localhost',
